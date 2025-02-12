@@ -1,0 +1,1 @@
+file=str(input())
