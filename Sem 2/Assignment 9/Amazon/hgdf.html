@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazon All Dropdown</title>
+    <style>
+        /* Navbar */
+        .nav-container {
+            display: flex;
+            align-items: center;
+            background-color: #232F3E;
+            height: 50px;
+            padding: 0 20px;
+        }
+
+        /* "All" Dropdown */
+        .menu {
+            display: flex;
+            align-items: center;
+            position: relative;
+            padding: 10px 15px;
+            cursor: pointer;
+        }
+
+        .menu img {
+            width: 18px;
+            margin-right: 8px;
+        }
+
+        .dropbtn2 {
+            background: none;
+            border: none;
+            color: white;
+            font-size: 14px;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+        }
+
+        /* Dropdown Content */
+        .dropdown-content2 {
+            display: none;
+            position: absolute;
+            top: 45px;
+            left: 0;
+            background-color: white;
+            color: black;
+            width: 270px;
+            box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+            border-radius: 5px;
+            padding: 10px;
+            z-index: 100;
+            border: 1px solid #ddd;
+        }
+
+        .sign-in {
+            background-color: #232F3E;
+            padding: 15px;
+            text-align: center;
+        }
+
+        .sign-in a {
+            color: white;
+            text-decoration: none;
+            font-size: 14px;
+            font-weight: bold;
+        }
+
+        .dropdown-content2 h2 {
+            font-size: 16px;
+            padding: 10px;
+            border-bottom: 1px solid #ddd;
+            margin: 0;
+            font-weight: bold;
+            color: #111;
+        }
+
+        .dropdown-content2 a {
+            display: block;
+            padding: 10px;
+            text-decoration: none;
+            color: black;
+            font-size: 14px;
+            font-family: Arial, sans-serif;
+        }
+
+        .dropdown-content2 a:hover {
+            background-color: #f1f1f1;
+        }
+
+        /* Show dropdown on hover */
+        .menu:hover .dropdown-content2 {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="nav-container">
+        <!-- "All" Dropdown -->
+        <div class="menu">
+            <img src="bars-solid.png" alt="Menu Icon">
+            <button class="dropbtn2">All</button>
+            <div class="dropdown-content2">
+                <div class="sign-in">
+                    <h2><a href="#">Hello, Sign In</a></h2>
+                </div>
+                <div class="trending">
+                    <h2>Trending</h2>
+                    <a href="#">Bestsellers</a>
+                    <a href="#">New Releases</a>
+                    <a href="#">Movers and Shakers</a>
+                </div>
+                <div class="Digital Content and Device">
+                    <h2>Digital Content and Device</h2>
+                    <a href="#">Amazon Prime Video</a>
+                    <a href="#">Amazon Prime Music</a>
+                    <a href="#">Amazon Mini TV</a>
+                </div>
+                <div class="Help and Setting">
+                    <h2>Help and Setting</h2>
+                    <a href="#">Your Account</a>
+                    <a href="#">Customer Service</a>
+                    <a href="#">Sign In</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
