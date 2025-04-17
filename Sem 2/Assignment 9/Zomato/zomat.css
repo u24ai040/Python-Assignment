@@ -1,0 +1,134 @@
+* {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Arial', sans-serif;
+ }
+
+.main{
+    background-image: url("/ASSIGNMENT 9/Zomato/home.jpg");
+  
+    background-position: center center;
+    background-repeat: repeat;
+    background-size:cover;
+    position: relative;
+    text-align: center;
+    height: 70vh;
+    
+   
+}
+.main.box{
+  
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.1);
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.nav
+{
+    display: flex;
+    justify-content: space-between;
+    margin:auto;
+    max-width: 80vw;
+    align-items: center;
+    color: white;
+    
+    
+}
+a {
+    text-decoration: none; 
+    color: inherit; 
+    color: white;
+}
+#nav-links
+{padding-left:350px ;
+padding-bottom: 0px;
+border-radius: 0px;
+box-sizing: border-box;
+border-style: solid;
+border-color: transparent;
+border-width: 0px 0px 0.2rem;
+display: flex;
+gap: 30px;
+
+
+}
+.box1{
+    height:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    text-align: center;
+    position: relative;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.box1 img{
+     max-width: 50% ; 
+        height: auto ;
+        width: 100%;
+        height: 80px;
+    
+}
+.box1 h1{
+    font-size: 3rem;
+    margin-bottom: 1rem;
+
+}
+.box1:first-child{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+}
+.box1 :seocnd-child{
+    color: white;
+    text-align: center;
+    font-size: 3.6rem;
+}
+.box1 :nth-child(1)
+{
+    border: none;
+    font-size: 1.4rem;
+    width: 100%;
+    border-radius: 0.8rem;
+}
+.scr
+{
+    display: flex;
+    justify-content: space-between;
+    margin:auto;
+    max-width: 80vw;
+    align-items: center;
+    color: black;
+    
+}
+.scroll {
+    display: flex;
+    justify-content: center;
+    padding: 40px 0;
+    background-color: #fff;
+}
+.scroll div {
+    text-align: center;
+    margin:20px;
+}
+.scroll img {
+    width: 300px;
+    margin-bottom: 10px;
+}
+#h1{
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+#h2{
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+#h3{
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
